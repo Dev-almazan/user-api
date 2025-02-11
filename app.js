@@ -11,7 +11,7 @@ app.use('/user',userRouter);
 
 
 // Iniciamos el servidor en el puerto especificado en la configuración
-app.listen(8081,() => {
-  console.log(`Servicio habilitado en puerto: 8081`)
+app.listen(8080,() => {
+  console.log(`Servicio habilitado en puerto: 8080`)
 })
 
